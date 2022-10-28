@@ -1,7 +1,7 @@
 # snake-game
 Kollaborativt snake spil, øvelse i 2.p
 
-Spildokument
+# spil-dokument
 
 Vi har lavet en liste over de ting vi SKAL bruge, herunder er der grafikken, det er vigtigt at vi kan se slangen bevæge sig rundt så vi kan undgå forhindringer og spise frugter der spawner rundt omkring på banen. Udover det er det forfærdeligt at spille et real-time spil uden grafik.
 Udover det skal vi selvfølgelig bruge en spiller, en slange som kan bevæge sig rundt på banen når vi trykker på tasterne. Slangen skal kunne dreje til siderne når vi giver den kommandoen.
