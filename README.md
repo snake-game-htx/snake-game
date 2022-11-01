@@ -9,3 +9,6 @@ Så skal der være frugter som spawner så spilleren har en grund til at spille,
 Der skal også være mulighed for at vinde når man fylder hele mappet, så man har noget at kæmpe imod.
 På samme måde skal der være mulighed for at dø når man rammer sig selv eller en væg så man har en grund til at spille.
 Når man taber eller vinder skal der være en slags menu, så man kan genstarte spillet og se hvor godt man klarede sig.
+
+
+Godt arbejde!!
