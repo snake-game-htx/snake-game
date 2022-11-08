@@ -2,6 +2,7 @@ PImage webImg;
 
 boolean GameOver = false;
 int score = 0;
+int movescore = 10;
 
 void GameOver() {
   if (GameOver == true) {
@@ -10,6 +11,12 @@ void GameOver() {
     rect(width/2-100, height/2-100, 200, 200);
     textSize(35);
     fill(0);
+    if(score == 10) {
+      movescore = 20;
+    }
+    if(score == 100) {
+      movescore = 30;
+    }
     text("Score:", width/2-45, height/2-50);
     text(score, width/2-10, height/2-10);
     rect(width-110, 40, 70, 70);
