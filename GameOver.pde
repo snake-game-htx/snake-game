@@ -17,6 +17,9 @@ void GameOver() {
     if(score == 100) {
       movescore = 30;
     }
+    if(score == 1000) {
+      movescore = 35;
+    }
     text("Score:", width/2-45, height/2-50);
     text(score, width/2-10, height/2-10);
     rect(width-110, 40, 70, 70);
