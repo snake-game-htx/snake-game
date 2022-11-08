@@ -11,10 +11,13 @@ void setup() {
 
 void draw() {
   background(0, 200, 20);
+  MainMenu();
   GameOver();
 }
 
 void keyPressed() {
-  if (key == 'h') GameOver = true;
-  if (key == '+') score++;
+  if (MainMenu == false) {
+    if (key == 'h') GameOver = true;
+    if (key == '+') score++;
+  }
 }
