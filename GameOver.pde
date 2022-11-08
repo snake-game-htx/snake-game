@@ -12,7 +12,6 @@ void GameOver() {
     fill(0);
     text("Score:", width/2-45, height/2-50);
     text(score, width/2-10, height/2-10);
-    //fill(255);
     rect(width-110, 40, 70, 70);
     stroke(255, 0, 0);
     strokeWeight(15);
