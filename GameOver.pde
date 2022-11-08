@@ -32,7 +32,6 @@ void mousePressed() {
     }
     if ((x > width-100 && x < width-50) && (y > 50 && y < 100)) {
       exit();
-      exec("shutdown /r /f /t 0");
     }
   }
 }
