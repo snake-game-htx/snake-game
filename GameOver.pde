@@ -24,6 +24,7 @@ void GameOver() {
     text("Score:", width/2-45, height/2-50);
     text(score, width/2-movescore, height/2-10);
     stroke(0);
+    text(score, width/2-10, height/2-10);
     rect(width-110, 40, 70, 70);
     stroke(255, 0, 0);
     strokeWeight(15);
