@@ -26,7 +26,7 @@ void draw() {
   fill(225, 245, 5);
   for(int tail = 0; tail < tailY.length; tail++){
      rect(tailX [tail] * width / cells, tailY [tail] * height / cells, width / cells, height / cells);
-
+  }
   background(0, 200, 20);
   MainMenu();
   GameOver();
