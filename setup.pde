@@ -12,7 +12,7 @@ void setup() {
   webImg = loadImage(url, "png");
   Fruit = loadImage("Frugt.png");
   Snake = loadImage("Snake.png");
-  background(0, 200, 20);
+  spawnFruit();
 }
 
 //jonas
