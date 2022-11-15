@@ -13,6 +13,8 @@ void draw() {
   background(0, 200, 20);
   MainMenu();
   GameOver();
+  frameRate(1000);
+  println(frameRate);
 }
 
 void keyPressed() {
