@@ -8,6 +8,8 @@ boolean up = false;
 boolean down = false;
 
 void keyPressed() {
+  
+  //work pls
   if (MainMenu == false) {
     if ((key == 'w'|| key == 'W') && down == false) { // Vi sætter difinitionerene for hvornår up bliver true
       up = true;
