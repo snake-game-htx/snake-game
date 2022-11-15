@@ -8,11 +8,11 @@ void spawnFruit() {
 
     while (availableHead == false && availableTail == false) { //funktioner som giver frugten sine koordinater kører indtil begge koordinater er ledige
 
-      fruitX = floor(random(nFruitX.length)); //deklarerer frugtens X koordinat til at være et nedrundet tilfældigt tal fra antal cells - altså giver frugten en tilfældig celle på X aksen
+      fruitX = floor(random(cells)); //deklarerer frugtens X koordinat til at være et nedrundet tilfældigt tal fra antal cells - altså giver frugten en tilfældig celle på X aksen
 
       println(fruitX); //angiv frugtens X værdi i console
 
-      fruitY = floor(random(nFruitY.length)); //deklarerer frugtens Y koordinat til at være et nedrundet tilfældigt tal fra antal cells - altså giver frugten en telfældig celle på Y aksen
+      fruitY = floor(random(cells)); //deklarerer frugtens Y koordinat til at være et nedrundet tilfældigt tal fra antal cells - altså giver frugten en telfældig celle på Y aksen
 
       println(fruitY); //angiv frugtens Y værdi i console
 
