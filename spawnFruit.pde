@@ -8,10 +8,10 @@ float fruitX, fruitY;
 void spawnFruit() {
   if (spawnNew == true) { //skal ny frugt spawne?
     for (int i = 0; i < cells; i++) { //angiver hvilke mulige X koordinater frugten skal kunne få
-      nFruitX[i] = (width/cells)*i;
+      nFruitX[i] = i;
     }
     for (int i = 0; i < cells; i++) { //angiver hvilke mulige Y koordinater frugten skal kunne få
-      nFruitY[i] = (height/cells)*i;
+      nFruitY[i] = i;
     }
 
       while (availableHead == false && availableTail == false) { //funktioner som giver frugten sine koordinater kører indtil begge koordinater er ledige
