@@ -36,4 +36,12 @@ void GameOver() {
     text(High_score, width-60, height-50);
     if (score > High_score) High_score = score;
   }
+  if (GameOver == false && MainMenu == false) {
+    if (headX < 0 || headX >= cells) {
+      GameOver = true;
+    }
+    if (headY < 0 || headY >= cells) {
+      GameOver = true;
+    }
+  }
 }
