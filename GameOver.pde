@@ -2,7 +2,6 @@ PImage webImg;
 
 boolean GameOver = false;
 int score = 0;
-int movescore = 10;
 
 void GameOver() {
   if (GameOver == true && MainMenu == false) {
@@ -12,19 +11,10 @@ void GameOver() {
     rect(width/2-100, height/2-100, 200, 200);
     textSize(35);
     fill(0);
-    if(score == 10) {
-      movescore = 20;
-    }
-    if(score == 100) {
-      movescore = 30;
-    }
-    if(score == 1000) {
-      movescore = 35;
-    }
-    text("Score:", width/2-45, height/2-50);
-    text(score, width/2-movescore, height/2-10);
+    text("Score:", width/2, height/2-50);
+    textAlign(CENTER);
+    text(score, width/2, height/2-10);
     stroke(0);
-    text(score, width/2-10, height/2-10);
     rect(width-110, 40, 70, 70);
     stroke(255, 0, 0);
     strokeWeight(15);
@@ -40,5 +30,10 @@ void GameOver() {
     line(55, 100, 55, 75);
     line(95, 100, 95, 75);
     line(55, 100, 95, 100);
+    textAlign(CENTER);
+    textSize(25);
+    text("High score:", width-60, height-80);
+    text(High_score, width-60, height-50);
+    if (score > High_score) High_score = score;
   }
 }
