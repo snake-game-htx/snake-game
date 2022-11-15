@@ -21,3 +21,7 @@ void keyPressed() {
     if (key == '+') score++;
   }
 }
+
+void draw(){
+  
+}
