@@ -2,8 +2,7 @@ boolean spawnNew = true;
 boolean availableHead = false;
 boolean availableTail = false;
 boolean available = false;
-float[] nFruitX = new float[cells], nFruitY = new float[cells];
-float fruitX, fruitY;
+int[] nFruitX = new int[cells], nFruitY = new int[cells];
 
 void spawnFruit() {
   if (spawnNew == true) { //skal ny frugt spawne?
