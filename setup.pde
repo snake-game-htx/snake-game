@@ -5,7 +5,6 @@ int fruitX, fruitY;
 
 PImage Fruit;
 PImage Snake;
-PImage Tail;
 
 void setup() {
   size(800, 800);
@@ -13,7 +12,6 @@ void setup() {
   webImg = loadImage(url, "png");
   Fruit = loadImage("Frugt.png");
   Snake = loadImage("Snake.png");
-  Tail = loadImage("Tail.png");
   background(0,200,20);
 }
 
