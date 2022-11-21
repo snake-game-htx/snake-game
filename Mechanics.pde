@@ -7,6 +7,10 @@ void mousePressed() {
       score = 0;
       headX = 0;
       headY = 0;
+      left = false;
+      right = false;
+      up = false;
+      down = false;
     }
     if ((x > width-100 && x < width-50) && (y > 50 && y < 100)) {
       exit();
@@ -22,6 +26,10 @@ void mousePressed() {
       score = 0;
       headX = 0;
       headY = 0;
+      left = false;
+      right = false;
+      up = false;
+      down = false;
     }
   }
 }
