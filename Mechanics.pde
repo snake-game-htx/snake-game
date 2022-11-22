@@ -5,6 +5,12 @@ void mousePressed() {
     if ((x > width/2-25 && x < width/2+25) && (y > width/2+20 && y < width/2+70)) {
       GameOver = false;
       score = 0;
+      headX = 0;
+      headY = 0;
+      left = false;
+      right = false;
+      up = false;
+      down = false;
     }
     if ((x > width-100 && x < width-50) && (y > 50 && y < 100)) {
       exit();
@@ -18,6 +24,12 @@ void mousePressed() {
     if ((x > width/2-50 && x < width/2+50) && (y > height/2-50 && y < height/2)) {
       MainMenu = false;
       score = 0;
+      headX = 0;
+      headY = 0;
+      left = false;
+      right = false;
+      up = false;
+      down = false;
     }
   }
 }
