@@ -1,3 +1,4 @@
+
 void mousePressed() {
   int x = mouseX;
   int y = mouseY;
@@ -11,6 +12,7 @@ void mousePressed() {
       right = false;
       up = false;
       down = false;
+      tailLength = 0;
     }
     if ((x > width-100 && x < width-50) && (y > 50 && y < 100)) {
       exit();

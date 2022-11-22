@@ -1,4 +1,5 @@
 int cells = 10; // grid = cells * cells
+
 int headX, headY;
 int[] tailX, tailY;
 int fruitX, fruitY;
@@ -25,10 +26,9 @@ void draw() {
   image(Fruit, fruitX * width / cells, fruitY * height / cells, width / cells, height / cells);
   
   fill(225, 245, 5);
-  /*for(int tail = 0; tail < tailY.length; tail++){
+  for(int tail = 0; tail < tailLength; tail++){
      rect(tailX [tail] * width / cells, tailY [tail] * height / cells, width / cells, height / cells);
-  }*/
-  
+  }
   MainMenu();
   GameOver();
   movetimer++;
