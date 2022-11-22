@@ -26,8 +26,8 @@ void mousePressed() {
     if ((x > width/2-50 && x < width/2+50) && (y > height/2-50 && y < height/2)) {
       MainMenu = false;
       score = 0;
-      headX = 0;
-      headY = 0;
+      headX = 4;
+      headY = 4;
       left = false;
       right = false;
       up = false;

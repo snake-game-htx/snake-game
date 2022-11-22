@@ -45,11 +45,6 @@ void keyPressed() {
       left = false;
       movetimer = 22222;
     }
-    if (keyCode == LEFT && right == false) {
-      left = true;
-      right = false;
-      down = false;
-      up = false;
     if (key == CODED) { //Her bliver der gjort det samme som inden bare vi er nødt til at code tasterne
       if (keyCode == UP && down == false) {  // Vi sætter difinitionerene for hvornår up bliver true
         up = true;

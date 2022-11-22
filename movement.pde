@@ -1,8 +1,6 @@
 int movetimer;   //definere movetimer
 
 void Movesnake() {
-  println(headX + "x, "+ fruitX);
-  println(headY + "y, "+ fruitY);
   if ((movetimer>=25) && (right == true)) { //vi siger hvor og hvornår hoved må bevæge sig
     movetimer=0;
     for (int i = 1; i < tailLength; i++) {
